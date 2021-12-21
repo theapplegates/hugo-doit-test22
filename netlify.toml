@@ -1,0 +1,6 @@
+[context.production.environment]
+  HUGO_VERSION = "0.91.0"
+
+[build]
+publish = "exampleSite/public"
+command = "cd exampleSite && hugo --themesDir ../.. && npm run algolia"
